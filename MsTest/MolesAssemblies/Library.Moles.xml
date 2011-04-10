@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Library.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Library.Moles.MCuenta">
+            <summary>Mole type of <see cref="T:Library.Cuenta"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Moles.MCuenta.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Library.Moles.MCuenta.#ctor(Library.Cuenta)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Library.Moles.MCuenta.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Moles.MCuenta.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Moles.MCuenta.Bind(System.ComponentModel.INotifyPropertyChanged)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.ConstructorInt32MonedaDecimal">
+            <summary>Sets the mole of <see cref="M:Library.Cuenta.#ctor(System.Int32,Library.Moneda,System.Decimal)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.MonedaGet">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.Moneda"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.MonedaSetMoneda">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.Moneda"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.NumeroCuentaGet">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.NumeroCuenta"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.NumeroCuentaSetInt32">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.NumeroCuenta"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.OnPropertyChangedPropertyChangedEventArgs">
+            <summary>Sets the mole of <see cref="M:Library.Cuenta.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.PropertyChangedAddPropertyChangedEventHandler">
+            <summary>Sets the mole of <see cref="M:Library.Cuenta.add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.PropertyChangedRemovePropertyChangedEventHandler">
+            <summary>Sets the mole of <see cref="M:Library.Cuenta.remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.SaldoGet">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.Saldo"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.SaldoSetDecimal">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.Saldo"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.TransferirDecimalCuenta">
+            <summary>Sets the mole of <see cref="M:Library.Cuenta.Transferir(System.Decimal,Library.Cuenta)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Moles.MCuenta.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.AllInstances.MonedaGet">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.Moneda"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.AllInstances.MonedaSetMoneda">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.Moneda"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.AllInstances.NumeroCuentaGet">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.NumeroCuenta"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.AllInstances.NumeroCuentaSetInt32">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.NumeroCuenta"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.AllInstances.OnPropertyChangedPropertyChangedEventArgs">
+            <summary>Sets the mole of <see cref="M:Library.Cuenta.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.AllInstances.PropertyChangedAddPropertyChangedEventHandler">
+            <summary>Sets the mole of <see cref="M:Library.Cuenta.add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.AllInstances.PropertyChangedRemovePropertyChangedEventHandler">
+            <summary>Sets the mole of <see cref="M:Library.Cuenta.remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.AllInstances.SaldoGet">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.Saldo"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.AllInstances.SaldoSetDecimal">
+            <summary>Sets the mole of <see cref="P:Library.Cuenta.Saldo"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MCuenta.AllInstances.TransferirDecimalCuenta">
+            <summary>Sets the mole of <see cref="M:Library.Cuenta.Transferir(System.Decimal,Library.Cuenta)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Events.Moles.MEventAggregator">
+            <summary>Mole type of <see cref="T:Library.Events.EventAggregator"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventAggregator.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventAggregator.#ctor(Library.Events.EventAggregator)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventAggregator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventAggregator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventAggregator.Bind(Library.Events.IEventPublisher)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventAggregator.GetEvent``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.IObservable{``0}})">
+            <summary>Sets the mole of <see cref="M:Library.Events.EventAggregator.GetEvent``1"/>
+            </summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventAggregator.PublishTEvent``1(Microsoft.Moles.Framework.MolesDelegates.Action{``0})">
+            <summary>Sets the mole of <see cref="M:Library.Events.EventAggregator.Publish``1(``0)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Events.Moles.MEventAggregator.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Events.Moles.MEventAggregator.Constructor">
+            <summary>Sets the mole of <see cref="M:Library.Events.EventAggregator.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Library.Events.Moles.MEventAggregator.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventAggregator.AllInstances.GetEvent``1(Microsoft.Moles.Framework.MolesDelegates.Func{Library.Events.EventAggregator,System.IObservable{``0}})">
+            <summary>Sets the mole of <see cref="M:Library.Events.EventAggregator.GetEvent``1"/>
+            </summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventAggregator.AllInstances.PublishTEvent``1(Microsoft.Moles.Framework.MolesDelegates.Action{Library.Events.EventAggregator,``0})">
+            <summary>Sets the mole of <see cref="M:Library.Events.EventAggregator.Publish``1(``0)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Events.Moles.MEventManager">
+            <summary>Mole type of <see cref="T:Library.Events.EventManager"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventManager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Events.Moles.MEventManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Events.Moles.MEventManager.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Events.Moles.MEventManager.CurrentGet">
+            <summary>Sets the mole of <see cref="P:Library.Events.EventManager.Current"/>
+            </summary>
+        </member>
+        <member name="T:Library.Conversion.Moles.MFactoriaConversion">
+            <summary>Mole type of <see cref="T:Library.Conversion.FactoriaConversion"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.MFactoriaConversion.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.MFactoriaConversion.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.MFactoriaConversion.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MFactoriaConversion.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MFactoriaConversion.ConversorActivoGet">
+            <summary>Sets the mole of <see cref="P:Library.Conversion.FactoriaConversion.ConversorActivo"/>
+            </summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MFactoriaConversion.GetConversorFromConfig">
+            <summary>Sets the mole of <see cref="M:Library.Conversion.FactoriaConversion.GetConversorFromConfig"/>
+            </summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MFactoriaConversion.SetConversorIConversorMoneda">
+            <summary>Sets the mole of <see cref="M:Library.Conversion.FactoriaConversion.SetConversor(Library.Conversion.IConversorMoneda)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Loging.Moles.MFactoriaLogger">
+            <summary>Mole type of <see cref="T:Library.Loging.FactoriaLogger"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.MFactoriaLogger.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.MFactoriaLogger.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.MFactoriaLogger.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Loging.Moles.MFactoriaLogger.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Loging.Moles.MFactoriaLogger.GetLoggerFromConfig">
+            <summary>Sets the mole of <see cref="M:Library.Loging.FactoriaLogger.GetLoggerFromConfig"/>
+            </summary>
+        </member>
+        <member name="P:Library.Loging.Moles.MFactoriaLogger.LogerActivoGet">
+            <summary>Sets the mole of <see cref="P:Library.Loging.FactoriaLogger.LogerActivo"/>
+            </summary>
+        </member>
+        <member name="P:Library.Loging.Moles.MFactoriaLogger.SetLoggerILoger">
+            <summary>Sets the mole of <see cref="M:Library.Loging.FactoriaLogger.SetLogger(Library.Loging.ILoger)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Loging.Moles.MMemoryLogger">
+            <summary>Mole type of <see cref="T:Library.Loging.MemoryLogger"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.MMemoryLogger.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.MMemoryLogger.#ctor(Library.Loging.MemoryLogger)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.MMemoryLogger.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.MMemoryLogger.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.MMemoryLogger.Bind(Library.Loging.ILoger)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Library.Loging.Moles.MMemoryLogger.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Loging.Moles.MMemoryLogger.Constructor">
+            <summary>Sets the mole of <see cref="M:Library.Loging.MemoryLogger.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Library.Loging.Moles.MMemoryLogger.Dump">
+            <summary>Sets the mole of <see cref="M:Library.Loging.MemoryLogger.Dump"/>
+            </summary>
+        </member>
+        <member name="P:Library.Loging.Moles.MMemoryLogger.LogString">
+            <summary>Sets the mole of <see cref="M:Library.Loging.MemoryLogger.Log(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Loging.Moles.MMemoryLogger.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Library.Loging.Moles.MMemoryLogger.AllInstances.Dump">
+            <summary>Sets the mole of <see cref="M:Library.Loging.MemoryLogger.Dump"/>
+            </summary>
+        </member>
+        <member name="P:Library.Loging.Moles.MMemoryLogger.AllInstances.LogString">
+            <summary>Sets the mole of <see cref="M:Library.Loging.MemoryLogger.Log(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Conversion.Moles.MMiConversorMoneda">
+            <summary>Mole type of <see cref="T:Library.Conversion.MiConversorMoneda"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.MMiConversorMoneda.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.MMiConversorMoneda.#ctor(Library.Conversion.MiConversorMoneda)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.MMiConversorMoneda.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.MMiConversorMoneda.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.MMiConversorMoneda.Bind(Library.Conversion.IConversorMoneda)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MMiConversorMoneda.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MMiConversorMoneda.Constructor">
+            <summary>Sets the mole of <see cref="M:Library.Conversion.MiConversorMoneda.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MMiConversorMoneda.RatioConversionMonedaMoneda">
+            <summary>Sets the mole of <see cref="M:Library.Conversion.MiConversorMoneda.RatioConversion(Library.Moneda,Library.Moneda)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MMiConversorMoneda.RatioDolarMoneda">
+            <summary>Sets the mole of <see cref="M:Library.Conversion.MiConversorMoneda.RatioDolar(Library.Moneda)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MMiConversorMoneda.RatioEuroMoneda">
+            <summary>Sets the mole of <see cref="M:Library.Conversion.MiConversorMoneda.RatioEuro(Library.Moneda)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MMiConversorMoneda.RatioYenMoneda">
+            <summary>Sets the mole of <see cref="M:Library.Conversion.MiConversorMoneda.RatioYen(Library.Moneda)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Conversion.Moles.MMiConversorMoneda.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.MMiConversorMoneda.AllInstances.RatioConversionMonedaMoneda">
+            <summary>Sets the mole of <see cref="M:Library.Conversion.MiConversorMoneda.RatioConversion(Library.Moneda,Library.Moneda)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Moles.MRepositorioCuentas">
+            <summary>Mole type of <see cref="T:Library.RepositorioCuentas"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Moles.MRepositorioCuentas.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Library.Moles.MRepositorioCuentas.#ctor(Library.RepositorioCuentas)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Library.Moles.MRepositorioCuentas.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Library.Moles.MRepositorioCuentas.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Moles.MRepositorioCuentas.AddCuenta">
+            <summary>Sets the mole of <see cref="M:Library.RepositorioCuentas.Add(Library.Cuenta)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MRepositorioCuentas.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Library.Moles.MRepositorioCuentas.Constructor">
+            <summary>Sets the mole of <see cref="M:Library.RepositorioCuentas.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MRepositorioCuentas.DeleteInt32">
+            <summary>Sets the mole of <see cref="M:Library.RepositorioCuentas.Delete(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MRepositorioCuentas.GetAll">
+            <summary>Sets the mole of <see cref="M:Library.RepositorioCuentas.GetAll"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MRepositorioCuentas.GetByIdInt32">
+            <summary>Sets the mole of <see cref="M:Library.RepositorioCuentas.GetById(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Moles.MRepositorioCuentas.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Library.Moles.MRepositorioCuentas.AllInstances.AddCuenta">
+            <summary>Sets the mole of <see cref="M:Library.RepositorioCuentas.Add(Library.Cuenta)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MRepositorioCuentas.AllInstances.DeleteInt32">
+            <summary>Sets the mole of <see cref="M:Library.RepositorioCuentas.Delete(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MRepositorioCuentas.AllInstances.GetAll">
+            <summary>Sets the mole of <see cref="M:Library.RepositorioCuentas.GetAll"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.MRepositorioCuentas.AllInstances.GetByIdInt32">
+            <summary>Sets the mole of <see cref="M:Library.RepositorioCuentas.GetById(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Moles.SCuenta">
+            <summary>Stub type of <see cref="T:Library.Cuenta"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Moles.SCuenta.#ctor(System.Int32,Library.Moneda,System.Decimal)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Library.Moles.SCuenta.InitializeStub">
+            <summary>Initializes a new instance of type SCuenta</summary>
+        </member>
+        <member name="M:Library.Moles.SCuenta.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>Sets the stub of <see cref="M:Library.Cuenta.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="F:Library.Moles.SCuenta.OnPropertyChangedPropertyChangedEventArgs">
+            <summary>Sets the stub of <see cref="M:Library.Cuenta.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Library.Moles.SCuenta.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Library.Moles.SCuenta.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Library.Events.Moles.SEventAggregator">
+            <summary>Stub type of <see cref="T:Library.Events.EventAggregator"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Events.Moles.SEventAggregator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Library.Events.Moles.SEventAggregator.InitializeStub">
+            <summary>Initializes a new instance of type SEventAggregator</summary>
+        </member>
+        <member name="P:Library.Events.Moles.SEventAggregator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Library.Events.Moles.SEventAggregator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Library.Conversion.Moles.SIConversorMoneda">
+            <summary>Stub type of <see cref="T:Library.Conversion.IConversorMoneda"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.SIConversorMoneda.#ctor">
+            <summary>Initializes a new instance of type SIConversorMoneda</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.SIConversorMoneda.l::Library#Conversion#IConversorMoneda#RatioConversion(Library.Moneda,Library.Moneda)">
+            <summary>Sets the stub of <see cref="M:Library.Conversion.IConversorMoneda.RatioConversion(Library.Moneda,Library.Moneda)"/>
+            </summary>
+        </member>
+        <member name="F:Library.Conversion.Moles.SIConversorMoneda.RatioConversionMonedaMoneda">
+            <summary>Sets the stub of <see cref="M:Library.Conversion.IConversorMoneda.RatioConversion(Library.Moneda,Library.Moneda)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Events.Moles.SIEventPublisher">
+            <summary>Stub type of <see cref="T:Library.Events.IEventPublisher"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Events.Moles.SIEventPublisher.#ctor">
+            <summary>Initializes a new instance of type SIEventPublisher</summary>
+        </member>
+        <member name="M:Library.Events.Moles.SIEventPublisher.GetEvent``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.IObservable{``0}})">
+            <summary>Sets stubs of GetEvent()</summary>
+        </member>
+        <member name="M:Library.Events.Moles.SIEventPublisher.l::Library#Events#IEventPublisher#GetEvent``1">
+            <summary>Sets the stub of <see cref="M:Library.Events.IEventPublisher.GetEvent``1"/>
+            </summary>
+        </member>
+        <member name="M:Library.Events.Moles.SIEventPublisher.l::Library#Events#IEventPublisher#Publish``1(``0)">
+            <summary>Sets the stub of <see cref="M:Library.Events.IEventPublisher.Publish``1(``0)"/>
+            </summary>
+        </member>
+        <member name="M:Library.Events.Moles.SIEventPublisher.PublishTEvent``1(Microsoft.Moles.Framework.MolesDelegates.Action{``0})">
+            <summary>Sets stubs of Publish(!!0 sampleEvent)</summary>
+        </member>
+        <member name="T:Library.Loging.Moles.SILoger">
+            <summary>Stub type of <see cref="T:Library.Loging.ILoger"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.SILoger.#ctor">
+            <summary>Initializes a new instance of type SILoger</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.SILoger.l::Library#Loging#ILoger#Log(System.String)">
+            <summary>Sets the stub of <see cref="M:Library.Loging.ILoger.Log(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Library.Loging.Moles.SILoger.LogString">
+            <summary>Sets the stub of <see cref="M:Library.Loging.ILoger.Log(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:Library.Loging.Moles.SMemoryLogger">
+            <summary>Stub type of <see cref="T:Library.Loging.MemoryLogger"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.SMemoryLogger.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Library.Loging.Moles.SMemoryLogger.InitializeStub">
+            <summary>Initializes a new instance of type SMemoryLogger</summary>
+        </member>
+        <member name="P:Library.Loging.Moles.SMemoryLogger.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Library.Loging.Moles.SMemoryLogger.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Library.Conversion.Moles.SMiConversorMoneda">
+            <summary>Stub type of <see cref="T:Library.Conversion.MiConversorMoneda"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.SMiConversorMoneda.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Library.Conversion.Moles.SMiConversorMoneda.InitializeStub">
+            <summary>Initializes a new instance of type SMiConversorMoneda</summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.SMiConversorMoneda.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Library.Conversion.Moles.SMiConversorMoneda.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Library.Moles.SRepositorioCuentas">
+            <summary>Stub type of <see cref="T:Library.RepositorioCuentas"/>
+            .</summary>
+        </member>
+        <member name="M:Library.Moles.SRepositorioCuentas.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Library.Moles.SRepositorioCuentas.InitializeStub">
+            <summary>Initializes a new instance of type SRepositorioCuentas</summary>
+        </member>
+        <member name="P:Library.Moles.SRepositorioCuentas.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Library.Moles.SRepositorioCuentas.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
