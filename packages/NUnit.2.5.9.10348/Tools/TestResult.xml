@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Hugo\Documents\Visual Studio 2010\Projects\Test\packages\NUnit.2.5.9.10348\Tools\Project2.nunit" total="0" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-04-07" time="21:18:00">
+  <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.5420" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\Hugo\Documents\visual studio 2010\Projects\Test\packages\NUnit.2.5.9.10348\Tools" machine-name="BUGABOOS" user="Hugo" user-domain="Bugaboos" />
+  <culture-info current-culture="es-ES" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Users\Hugo\Documents\Visual Studio 2010\Projects\Test\packages\NUnit.2.5.9.10348\Tools\Project2.nunit" executed="True" result="Inconclusive" success="False" time="0.016" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\Hugo\Documents\Visual Studio 2010\Projects\Test\NUnit\bin\Debug\NUnit.dll" executed="False" result="NotRunnable">
+        <reason>
+          <message><![CDATA[Has no TestFixtures]]></message>
+        </reason>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
