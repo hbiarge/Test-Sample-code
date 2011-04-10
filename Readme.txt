@@ -1,0 +1,1 @@
+Solución utilizada para las pruebas de diferentes frameworks de test unitarios
